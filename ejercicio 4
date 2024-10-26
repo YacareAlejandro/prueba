@@ -1,0 +1,19 @@
+Definir num1, num2, temp Como Real
+	
+	num1 = 18.5
+	
+	num2 = 50.5
+	
+	Escribir "valos del primer numero es:", num1
+	
+	Escribir"valos del segundo numero es:", num2
+	
+	temp = num1 // temp= 18.5
+	
+	num1 = num2 // num1= 50.5
+	
+	num2 = temp // num2= 18.5
+	
+	Escribir "mostrar valor después del intercambio:" num1
+	
+	Escribir "mostrar valor después del intercambio:" num2
