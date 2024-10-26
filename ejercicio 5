@@ -1,0 +1,21 @@
+Definir pelicula Como Caracter
+	Definir horario Como Caracter
+	Definir precio Como Real
+	
+	Escribir "horario"
+	Leer bandahoraria
+	
+	si (bandahoraria = 13)
+		precio = 1200 - (1200 * 0.20)
+		
+	FinSi
+	si (bandahoraria = 15)
+		precio = 1500 - (1500 * 0.13)
+		
+	FinSi
+	si (bandahoraria = 19)
+		precio = 1800
+		
+	FinSi
+	Escribir " precio de entrada " horario " es de " precio
+	
