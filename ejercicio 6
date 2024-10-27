@@ -1,0 +1,8 @@
+Algoritmo sin_titulo
+	Definir contador Como Entero
+	contador = 100
+	Mientras (contador <= 150)
+		Escribir "estoy contando el numero: " contador
+		contador = contador + 2
+	FinMientras
+FinAlgoritmo
